@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hamza AlEssawi — Portfolio
 
-## Getting Started
+> Personal portfolio of a Software Engineer & AI Developer, built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v3 + CSS Variables |
+| Animations | Framer Motion |
+| Fonts | DM Sans · DM Serif Display · DM Mono |
+| Deployment | Vercel |
+
+---
+
+## Project Structure
+
+```
+portfolio/
+├── app/
+│   ├── globals.css        # Design system — CSS variables, grain texture, ambient orbs
+│   ├── layout.tsx         # Root layout with Google Fonts
+│   └── page.tsx           # Main page — composes all sections
+│
+├── components/
+│   ├── Hero.tsx           # Intro, stats, CTA buttons
+│   ├── Skills.tsx         # Tech stack grid (6 categories)
+│   ├── Experience.tsx     # Work history (Intern, AI Lead, TA)
+│   ├── Projects.tsx       # 6 projects with screenshots + lightbox
+│   ├── Education.tsx      # B.Sc. + Fortinet certifications
+│   ├── Contact.tsx        # Email, Phone, LinkedIn, GitHub, Location
+│   ├── Navbar.tsx         # Fixed nav with smooth scroll
+│   └── ThemeToggle.tsx    # Dark / Light mode toggle
+│
+└── public/
+    ├── medicai.png / medicai1.png / medicai2.png
+    ├── moodtunes1.png / moodtunes2.png
+    ├── Momentum.png / momentum1.png
+    ├── campusbookswap.png / campusbookswap1.png
+    ├── profile.jpg
+    └── HAMZA_ALESSAWI_CV_UAE.pdf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dark / Light mode** — default dark with gold accents, persisted in localStorage
+- **Ambient design** — grain texture overlay, drifting gold orbs, gradient section dividers
+- **Smooth animations** — staggered Framer Motion reveals on scroll
+- **Project lightbox** — click any screenshot to enlarge
+- **Fully responsive** — mobile-first layout
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| | |
+|---|---|
+| Email | [hamzaessawi77@gmail.com](mailto:hamzaessawi77@gmail.com) |
+| LinkedIn | [/in/hamza-alessawi-01b755365](https://www.linkedin.com/in/hamza-alessawi-01b755365/) |
+| GitHub | [github.com/HamzaEssawi](https://github.com/HamzaEssawi) |
+| Location | Abu Dhabi, UAE |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">© 2026 Hamza AlEssawi · Built with Next.js, TypeScript, Framer Motion</p>

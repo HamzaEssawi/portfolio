@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 
 const links = [
-  { label: 'Abu Dhabi'},
+  { label: 'Abu Dhabi, UAE'},
   { label: '✉ Email', href: 'mailto:hamzaessawi77@gmail.com' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/hamza-alessawi-01b755365/', external: true },
   { label: 'GitHub', href: 'https://github.com/HamzaEssawi', external: true },

@@ -7,7 +7,7 @@ const experiences = [
     role: 'Software Engineer',
     company: 'Zain Group',
     period: 'Feb 2025 – Nov 2025',
-    location: 'UAE',
+    location: 'Jordan',
     achievements: [
       'Developed and maintained scalable backend services using Node.js, Express, and REST APIs',
       'Designed and optimized SQL database queries (MySQL/PostgreSQL), improving response times and overall system performance',
@@ -20,7 +20,7 @@ const experiences = [
     role: 'Software Engineering Intern',
     company: 'Zain Group',
     period: 'Feb 2024 – Oct 2024',
-    location: 'UAE',
+    location: 'Jordan',
     achievements: [
       'Assisted in developing backend features using JavaScript (Node.js) and RESTful APIs',
       'Debugged and resolved issues across the stack, improving application stability and user experience',

@@ -115,9 +115,7 @@ export default function Hero() {
         className="max-w-lg mb-10 leading-relaxed md:ml-6"
         style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}
       >
-        Software Engineering graduate building intelligent tools for clinical
-        reasoning, real-time systems, and secure applications. Passionate about
-        AI, full-stack development, and creating impactful solutions.
+        Software Engineer with hands-on experience building scalable full-stack applications using TypeScript, Node.js, React, and Next.js. I focus on clean architecture, performance, and creating reliable systems that solve real-world problems.
       </motion.p>
 
       

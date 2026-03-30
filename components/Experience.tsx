@@ -4,41 +4,31 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
+    role: 'Software Engineer',
+    company: 'Zain Group',
+    period: 'Feb 2025 – Nov 2025',
+    location: 'UAE',
+    achievements: [
+      'Developed and maintained scalable backend services using Node.js, Express, and REST APIs',
+      'Designed and optimized SQL database queries (MySQL/PostgreSQL), improving response times and overall system performance',
+      'Built and integrated APIs consumed by frontend applications, ensuring reliability and low latency',
+      'Collaborated with cross-functional teams (frontend, QA) to deliver production-ready features in an Agile environment',
+      'Conducted code reviews and applied best practices for clean architecture, error handling, and security',
+    ],
+  },
+  {
     role: 'Software Engineering Intern',
-    company: 'Tech Company',
-    period: 'Summer 2025',
-    location: 'Dubai, UAE',
+    company: 'Zain Group',
+    period: 'Feb 2024 – Oct 2024',
+    location: 'UAE',
     achievements: [
-      'Developed and deployed full-stack features using Next.js and FastAPI',
-      'Implemented JWT authentication and rate limiting for API endpoints',
-      'Collaborated with cross-functional team to deliver 3 major features on schedule',
-      'Reduced API response time by 25% through database query optimization'
-    ]
+      'Assisted in developing backend features using JavaScript (Node.js) and RESTful APIs',
+      'Debugged and resolved issues across the stack, improving application stability and user experience',
+      'Worked with relational databases (MySQL/PostgreSQL) to write queries and handle data operations',
+      'Used Git and GitHub for version control and collaborated through pull requests and code reviews',
+      'Supported testing, deployment, and documentation of internal tools and services',
+    ],
   },
-  {
-    role: 'AI Developer (Project Lead)',
-    company: 'University Research Lab',
-    period: 'Sep 2025 - Feb 2026',
-    location: 'Famagusta, North Cyprus',
-    achievements: [
-      'Led development of Medicai, an AI-powered clinical reasoning trainer',
-      'Integrated Groq LLaMA 3.3 70B API for Socratic teaching and automated scoring',
-      'Managed team of 3 developers using Agile methodology',
-      'Presented project to faculty board, receiving recognition for innovation'
-    ]
-  },
-  {
-    role: 'Teaching Assistant',
-    company: 'Eastern Mediterranean University',
-    period: 'Sep 2024 - Jun 2025',
-    location: 'Famagusta, North Cyprus',
-    achievements: [
-      'Assisted in Data Structures & Algorithms course with 80+ students',
-      'Conducted weekly lab sessions and graded assignments',
-      'Developed automated grading scripts, saving 10+ hours per week',
-      'Received positive feedback from students for clear explanations'
-    ]
-  }
 ]
 
 export default function Experience() {
